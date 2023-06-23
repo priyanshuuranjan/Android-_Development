@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Shop_Details">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="#045C69"
+                android:orientation="vertical"
+                android:paddingTop="30dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:src="@drawable/logooo" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingBottom="23dp"
+                    android:text="Product Item's Details"
+                    android:textColor="#F9FAFA"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="344dp"
+                android:layout_height="33dp"
+                android:layout_marginTop="5dp"
+                android:text="1. Di-ammonium Phosphate"
+               android:textColor="#04202E"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="154dp"
+                android:layout_marginBottom="3dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="183dp"
+                    android:layout_height="149dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/paras" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="176dp"
+                    android:layout_height="81dp"
+                    android:layout_marginTop="50dp"
+                    android:text="* Available                * Price-1650/-"
+                    android:textColor="#264E4A"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="344dp"
+                android:layout_height="33dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#04202E"
+                android:textSize="20sp"
+                android:text="2. Urea"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="154dp"
+                android:layout_marginBottom="3dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="183dp"
+                    android:layout_height="172dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/urea" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="176dp"
+                    android:layout_height="81dp"
+                    android:layout_marginTop="50dp"
+                    android:text="* Available                * Price-246.50/-"
+                    android:textColor="#264E4A"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="303dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="5dp"
+                android:text="3. Inderdhanush"
+                android:textColor="#04202E"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="154dp"
+            android:layout_marginBottom="3dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="183dp"
+                android:layout_height="172dp"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/dhanush" />
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="176dp"
+                android:layout_height="81dp"
+                android:layout_marginTop="50dp"
+                android:text="* Available                           * Price-900/-"
+                android:textColor="#264E4A"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="303dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="5dp"
+                android:text="4.Calcium "
+                android:textColor="#04202E"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="154dp"
+            android:layout_marginBottom="3dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="183dp"
+                android:layout_height="172dp"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/yara" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="176dp"
+                android:layout_height="81dp"
+                android:layout_marginTop="50dp"
+                android:text="* Available                * Price-70/Kg-"
+                android:textColor="#264E4A"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="303dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="5dp"
+                android:text="5. AllWin Wonder "
+                android:textColor="#04202E"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="154dp"
+                android:layout_marginBottom="3dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="183dp"
+                    android:layout_height="172dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/wonder" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="176dp"
+                    android:layout_height="76dp"
+                    android:layout_marginTop="50dp"
+                    android:text="* Available               * Price-380/Kg"
+                    android:textColor="#264E4A"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="303dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="5dp"
+                android:text="6. AllWin Top-Plus "
+                android:textColor="#04202E"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="183dp"
+                    android:layout_height="172dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/top" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="176dp"
+                    android:layout_height="76dp"
+                    android:layout_marginTop="50dp"
+                    android:text="* Available                   * Price-100/-"
+                    android:textColor="#264E4A"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="303dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="5dp"
+                android:text="7. Anth-505 "
+                android:textColor="#04202E"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="183dp"
+                    android:layout_height="172dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/anth" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="176dp"
+                    android:layout_height="76dp"
+                    android:layout_marginTop="50dp"
+                    android:text="* Available                 * Price-700/lit"
+                    android:textColor="#264E4A"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="303dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="5dp"
+                android:text="8.  IFFCO Nano Urea  "
+                android:textColor="#04202E"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="183dp"
+                    android:layout_height="172dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/nano" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="176dp"
+                    android:layout_height="76dp"
+                    android:layout_marginTop="50dp"
+                    android:text="* Available                         * Price-240/lit"
+                    android:textColor="#264E4A"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="303dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="5dp"
+                android:text="9. Coragen  "
+                android:textColor="#04202E"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="183dp"
+                    android:layout_height="172dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/korajan" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="176dp"
+                    android:layout_height="107dp"
+                    android:layout_marginTop="50dp"
+                    android:text="* Available               * Price-10000/L"
+                    android:textColor="#264E4A"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="303dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="5dp"
+                android:text="10. Potassium Chloride  "
+                android:textColor="#04202E"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="183dp"
+                    android:layout_height="172dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/potas" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="176dp"
+                    android:layout_height="107dp"
+                    android:layout_marginTop="50dp"
+                    android:text="* Available               * Price-1850/-"
+                    android:textColor="#264E4A"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

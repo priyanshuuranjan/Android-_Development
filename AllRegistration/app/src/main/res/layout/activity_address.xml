@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Address">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/img" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple_700"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Fill Address Details"/>
+
+    <EditText
+        android:id="@+id/houseNumber"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:inputType="number"
+        android:hint="Enter House Number" />
+
+    <EditText
+        android:id="@+id/houseName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Enter House Name" />
+
+    <EditText
+        android:id="@+id/street"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:ems="10"
+        android:background="@drawable/border"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Enter Street Name"/>
+
+    <EditText
+        android:id="@+id/town"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:ems="10"
+        android:background="@drawable/border"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Enter Town Name"/>
+
+    <EditText
+        android:id="@+id/post"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:ems="10"
+        android:background="@drawable/border"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Enter Post Office"/>
+
+    <EditText
+        android:id="@+id/pinCode"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:ems="10"
+        android:background="@drawable/border"
+        android:inputType="number"
+        android:gravity="center"
+        android:hint="Enter PIN-Code"/>
+    <Button
+        android:id="@+id/next1"
+        android:layout_width="150dp"
+        android:layout_height="60sp"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:text="Next"/>
+</LinearLayout>

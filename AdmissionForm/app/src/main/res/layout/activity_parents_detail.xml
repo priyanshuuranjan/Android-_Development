@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ParentsDetail">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/img" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple_700"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Fill Parent's Details"/>
+
+    <EditText
+        android:id="@+id/mother"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Enter Mother's Name" />
+
+    <EditText
+        android:id="@+id/father"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Enter Father's Name" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:ems="10"
+        android:background="@drawable/border"
+        android:inputType="textEmailAddress"
+        android:gravity="center"
+        android:hint="Enter E-mail Address"/>
+
+    <EditText
+        android:id="@+id/homeTele"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:ems="10"
+        android:background="@drawable/border"
+        android:inputType="number"
+        android:gravity="center"
+        android:hint="Enter Residential Number"/>
+
+    <EditText
+        android:id="@+id/office"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:ems="10"
+        android:background="@drawable/border"
+        android:inputType="number"
+        android:gravity="center"
+        android:hint="Enter Office Number"/>
+
+    <EditText
+        android:id="@+id/work"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:ems="10"
+        android:background="@drawable/border"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Enter Parent's Occupation"/>
+    <Button
+        android:id="@+id/next2"
+        android:layout_width="150dp"
+        android:layout_height="60sp"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:text="Next"/>
+</LinearLayout>

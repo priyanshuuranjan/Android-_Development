@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/reset"
+        android:icon="@android:drawable/ic_menu_revert"
+        app:showAsAction="always"
+        android:title="reset"/>
+
+    <item
+        android:id="@+id/Home"
+        android:icon="@drawable/ic_launcher_foreground"
+        app:showAsAction="ifRoom"
+        android:title="Home"/>
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_launcher_foreground"
+        app:showAsAction="ifRoom"
+        android:title="Apps Version"/>
+    <item
+        android:id="@+id/exit"
+        app:showAsAction="never"
+        android:title="exit"/>
+
+</menu>
